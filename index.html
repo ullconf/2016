@@ -1,0 +1,101 @@
+---
+title: Home
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Úll 2016</title>
+  <link href="css/style.css" rel="stylesheet">
+  <script src="https://use.typekit.net/cye5xxq.js"></script>
+  <script>try{Typekit.load({ async: true });}catch(e){}</script>
+</head>
+
+<body>
+
+  <div class="hide_overflow_x">
+    <div class="background_square"></div>
+    <div class="background_circle"></div>
+    <div class="background_triangle"></div>
+  </div>
+
+  <div class="intro-page">
+    <div class="intro-title">
+      <h2 class="spaced-header">A conference about<br><em>thinking different</em></h2>
+    </div>
+  </div>
+
+  <div class="lauren-dark"></div>
+
+  <div class="ull-description">
+
+    <a href="index.html">
+      <div class="index-logo logo"></div>
+    </a>
+
+    <div class="description-paragraphs">
+
+      <p style="text-align: center">
+        November 1–2, 2016<br>Killarney, Ireland
+      </p>
+
+      <p>
+        Úll is a conference for people who build and love great products. We focus on great product stories, presented through an Apple-shaped lens. We treat the conference itself as a product: with a deep emphasis on the attendee experience.
+      </p>
+
+      <p>
+        Úll 2016 will explore that very Apple-y of ideas: <em>thinking different</em>.</p>
+
+      <p>We will hear stories from a selection folks about what thinking different means to them, and we’ll learn more about ourselves and the world of building great products from a series of interactive features. As ever, we hope to come away having made some great new friends, and bringing a fresh outlook to our lives and to our work.
+      </p>
+
+      <button class="buy_ticket_button">
+        <h4 class="https://ti.to/ull/2016">Reserve your ticket</h4>
+      </button>
+
+
+        <h5 class="align-center"><a href="code-of-conduct.html">Read our Code of Conduct</a></h5>
+
+
+    </div>
+  </div>
+
+  <div id="" class="photo-europe-1"></div>
+
+  <div class="europe-text">
+    <h2 class="spaced-header">Home again, home again, jiggidy jig</h2>
+    <p>
+      Úll returns in 2016 to The Europe. This is a multi-award winning hotel and resort with stunning views overlooking lake Leane. It is a short taxi ride from the town of Killarney, which can be easily accessed from several of Ireland’s transport hubs. If you’re coming from Dublin, we’ve also booked a train leaving Sunday 29th and returning Thursday 2nd.
+    </p>
+
+  </div>
+
+  {% include footer.html %}
+
+  <div class="queue"></div>
+
+  {% include google_analytics.html %}
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="bootstrap/js/bootstrap.min.js"></script>
+
+  <script>
+  $(window).scroll(function() {
+
+    var scroll = $(window).scrollTop();
+
+    var scrollPast = $( window ).height();
+
+    if (scroll >= scrollPast) {
+      $(".index-logo").addClass("animate-in");
+      $(".description-paragraphs").addClass("animate-in");
+    }
+    // else {
+    //   $(".index-logo").removeClass("animate-in");
+    // }
+
+  });
+  </script>
+</body>
