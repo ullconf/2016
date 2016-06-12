@@ -100,12 +100,14 @@ a:hover {
 .buy_ticket_button {
   margin-top: 22px;
   width: 100%;
-  height: 5em;
-}
-
-.buy_ticket_button h4 {
+  height: 3em;
+  display: block;
   font-size: 18px;
-  margin: 12px;
+  text-align: center;
+  padding-top: 1.5em;
+  font-weight: bold;
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
 }
 
 .flexbox {
