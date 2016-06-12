@@ -288,10 +288,12 @@ a:hover {
   margin: 0;
 }
 .nav-item-wrapper {
-  width: 200px;
-  max-width: 100%;
-  min-width: 20%;
   margin-top: -2px;
+}
+@media only screen and (min-width : 768px) {
+  .nav-item-wrapper {
+    flex: 1;
+  }
 }
 
 .nav-item {
@@ -309,6 +311,14 @@ a:hover {
   border-bottom: 2px solid white;
   border-left: none;
   border-right: none;
+}
+
+.nav-item.active {
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+  border-left: none;
+  border-right: none;
+  opacity: 0.9;
 }
 
 /* Illustrations */
