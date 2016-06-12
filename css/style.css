@@ -328,6 +328,7 @@ a:hover {
   background-image: url(../images/queue-1.jpg);
   background-size: cover;
   background-position: top;
+  opacity: 0.6;
 }
 
 /* Index */
@@ -554,6 +555,7 @@ a:hover {
   padding: 3em;
   font-size: 0.8em;
   background-color: #000;
+  opacity: 0.6;
 }
 
 .footer p {
