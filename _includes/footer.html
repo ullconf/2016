@@ -1,32 +1,40 @@
 <div class="navbar">
     <div class="flexbox">
 
+    {% if page.slug != 'home' %}
       <div class="nav-item-wrapper">
         <a href="./" class="nav-item">
           <h3>Home</h3>
         </a>
       </div>
+    {% endif %}
 
       <div class="nav-item-wrapper">
-        <a href="about.html" class="nav-item">
+        <a href="about.html" class="nav-item{% if page.slug == 'about' %} active{% endif %}">
           <h3>Why Úll?</h3>
         </a>
       </div>
 
       <div class="nav-item-wrapper">
-        <a href="schedule.html" class="nav-item">
+        <a href="schedule.html" class="nav-item{% if page.slug == 'schedule' %} active{% endif %}">
           <h3>Schedule</h3>
         </a>
       </div>
 
       <div class="nav-item-wrapper">
-        <a href="participate.html" class="nav-item">
+        <a href="participate.html" class="nav-item{% if page.slug == 'participate' %} active{% endif %}">
           <h3>Participate</h3>
         </a>
       </div>
 
       <div class="nav-item-wrapper">
-        <a href="logistics.html" class="nav-item">
+        <a href="tickets.html" class="nav-item{% if page.slug == 'tickets' %} active{% endif %}">
+          <h3>Tickets</h3>
+        </a>
+      </div>
+
+      <div class="nav-item-wrapper">
+        <a href="logistics.html" class="nav-item{% if page.slug == 'logistics' %} active{% endif %}">
           <h3>Logistics</h3>
         </a>
       </div>
@@ -46,3 +54,5 @@
 
     <p>Previously: <a href="http://2012.ull.ie">2012</a>, <a href="http://2013.ull.ie">2013</a>, <a href="http://2014.ull.ie">2014</a> &amp; <a href="http://2015.ull.ie">2015</a>.</p>
   </div>
+
+  <div class="queue"></div>
