@@ -1,12 +1,27 @@
 <head>
+
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Úll 2016{% if page.title %} — {{ page.title }}{% endif %}</title>
+  <link href="css/style.css" rel="stylesheet">
+  <script src="https://use.typekit.net/cye5xxq.js"></script>
+  <script src="js/ull.js"></script>
+  <script>try{Typekit.load({ async: true });}catch(e){}</script>
 
-  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
-  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+  <meta name="description" content="{{ page.description }}">
+  <meta name="robots" content="index, follow">
+  <meta name="author" content="Úll Conferences Limited">
 
-  <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
-  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
+  <meta property="og:title" content="Úll 2016">
+  <meta property="og:site_name" content="Úll">
+  <meta property="og:url" content="http://2016.ull.ie">
+  <meta property="og:description" content="{{ page.description }}">
+  <meta property="og:type" content="business.business">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@ullconf">
+  <meta name="twitter:title" content="Úll 2016">
+  <meta name="twitter:description" content="{{ page.description }}">
+  <meta name="twitter:image:src" content="http://2016.ull.ie/images/queue-1.jpg">
 </head>
