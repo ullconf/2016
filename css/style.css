@@ -573,3 +573,11 @@ a:hover {
 .footer p {
   margin: 0;
 }
+
+.next {
+  margin-top: 3em;
+  padding-top: 3em;
+  border-top: 2px solid white;
+  text-align: left;
+  font-weight: bold;
+}
