@@ -524,6 +524,96 @@ a:hover {
   background-image: url("../images/schedule.png");
 }
 
+.flex-container-presenters {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  min-height: 74vh;
+}
+
+.flex-container-presenters h4 {
+  margin-bottom: -16px;
+}
+
+.flex-container-presenters .speaker {
+  width: 400px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 88%;
+}
+
+.speaker-heading {
+  text-align: center;
+}
+
+.speaker-photo {
+  width: 300px;
+  height: 300px;
+  padding: 20px;
+  margin-bottom: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 88%;
+  border-radius: 170px;
+  border: 2px solid white;
+  overflow: hidden;
+  background-position: center;
+  background-size: cover;
+}
+
+.speaker-photo.kathy {
+  background-image: url("../images/presenters/kathy_campbell.jpg");
+}
+
+.speaker-photo.tammy {
+  background-image: url("../images/presenters/tammy_coron.jpg");
+}
+
+.speaker-photo.dermot {
+  background-image: url("../images/presenters/dermot_2.jpg");
+}
+
+.speaker-photo.katie {
+  background-image: url("../images/presenters/katie_lips.jpg");
+}
+
+.speaker-photo.silvana {
+  background-image: url("../images/presenters/silvana_langley.png");
+}
+
+.speaker-photo.alexandra {
+  background-image: url("../images/presenters/alexandra_cox.jpg");
+}
+
+.speaker-photo.chadwick {
+  background-image: url("../images/presenters/chadwick_2.jpg");
+}
+
+.speaker-photo.sally {
+  background-image: url("../images/presenters/sally_shepard.jpg");
+}
+
+.speaker-photo.conrad {
+  background-image: url("../images/presenters/conrad_stoll.png");
+}
+
+.speaker-photo.anna {
+  background-image: url("../images/presenters/anna_wilson.jpg");
+}
+
+.speaker-photo.crystal {
+  background-image: url("../images/presenters/crystal_yan.jpg");
+}
+
+.speaker-photo.tara {
+  background-image: url("../images/presenters/tara_van_zyl.jpg");
+}
+
 
 @media (max-width: 600px) {
   .europe-photo-browser {
