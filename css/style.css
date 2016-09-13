@@ -612,53 +612,23 @@ a:hover {
   background-size: cover;
 }
 
-.speaker-photo.kathy {
-  background-image: url("../images/presenters/kathy_campbell.jpg");
-}
+.speaker-photo.kathy {background-image: url("../images/presenters/kathy_campbell.jpg");}
+.speaker-photo.tammy {background-image: url("../images/presenters/tammy_coron.jpg");}
+.speaker-photo.dermot {background-image: url("../images/presenters/dermot_2.jpg");}
+.speaker-photo.katie {background-image: url("../images/presenters/katie_lips.jpg");}
+.speaker-photo.silvana {background-image: url("../images/presenters/silvana_langley.png");}
+.speaker-photo.alexandra {background-image: url("../images/presenters/alexandra_cox.jpg");}
+.speaker-photo.chadwick {background-image: url("../images/presenters/chadwick_2.jpg");}
+.speaker-photo.sally {background-image: url("../images/presenters/sally_shepard.jpg");}
+.speaker-photo.conrad {background-image: url("../images/presenters/conrad_stoll.png");}
+.speaker-photo.anna {background-image: url("../images/presenters/anna_wilson.jpg");}
+.speaker-photo.crystal {background-image: url("../images/presenters/crystal_yan.jpg");}
+.speaker-photo.tara {background-image: url("../images/presenters/tara_van_zyl.jpg");}
 
-.speaker-photo.tammy {
-  background-image: url("../images/presenters/tammy_coron.jpg");
-}
-
-.speaker-photo.dermot {
-  background-image: url("../images/presenters/dermot_2.jpg");
-}
-
-.speaker-photo.katie {
-  background-image: url("../images/presenters/katie_lips.jpg");
-}
-
-.speaker-photo.silvana {
-  background-image: url("../images/presenters/silvana_langley.png");
-}
-
-.speaker-photo.alexandra {
-  background-image: url("../images/presenters/alexandra_cox.jpg");
-}
-
-.speaker-photo.chadwick {
-  background-image: url("../images/presenters/chadwick_2.jpg");
-}
-
-.speaker-photo.sally {
-  background-image: url("../images/presenters/sally_shepard.jpg");
-}
-
-.speaker-photo.conrad {
-  background-image: url("../images/presenters/conrad_stoll.png");
-}
-
-.speaker-photo.anna {
-  background-image: url("../images/presenters/anna_wilson.jpg");
-}
-
-.speaker-photo.crystal {
-  background-image: url("../images/presenters/crystal_yan.jpg");
-}
-
-.speaker-photo.tara {
-  background-image: url("../images/presenters/tara_van_zyl.jpg");
-}
+.speaker-photo.jason {background-image: url("../images/presenters/jason.jpg");}
+.speaker-photo.david_smith {background-image: url("../images/presenters/david_smith.jpg");}
+.speaker-photo.rene {background-image: url("../images/presenters/rene.jpg");}
+.speaker-photo.horace {background-image: url("../images/presenters/horace.jpg");}
 
 
 @media (max-width: 600px) {
@@ -721,4 +691,107 @@ a:hover {
 .next.border-top {
   padding-top: 3em;
   border-top: 2px solid white;
+}
+
+
+
+.new-schedule {
+  width: 800px;
+  max-width: 88%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.new-schedule-day {
+  margin-bottom: 100px;
+}
+
+.new-schedule-time {
+  display: inline;
+  margin-right: 30px;
+  font-weight: 100;
+  width: 50px;
+}
+
+.new-schedule-title {
+  display: inline;
+}
+
+.new-schedule-subtitle {
+  clear: both;
+  margin-left: 80px;
+  margin-top: 0px;
+  margin-bottom: -6px;
+  font-weight: 100;
+}
+
+.new-schedule-divider {
+  width: 100%;
+  height: 2px;
+  background-color: white;
+  clear: both;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+
+.new-schedule-speaker-block {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-content: space-between;
+  justify-content: space-between;
+  margin-left: 80px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: calc(100% - 80px);
+
+  /*border: 1px dotted white;*/
+}
+
+.new-schedule-speaker-block div {
+  width: 200px;
+  margin-bottom: 20px;
+}
+
+.new-schedule-speaker-block div .new-schedule-subtitle {
+  margin-left: 0;
+}
+
+.new-schedule-day h1 {
+  /*float: left;*/
+  display: inline;
+}
+.new-schedule-date {
+  display: inline;
+  float: right;
+  opacity: 0.7;
+  font-weight: 300;
+  margin-top: 0px;
+}
+
+.new-schedule-date superscript {
+  font-size: 0.6em;
+  vertical-align: super;
+
+
+}
+
+
+.reveal-paragraph, .reveal-paragraph-2 {
+  max-height: 0px;
+  overflow: hidden;
+  transition: all 1s;
+  transition-timing-function: ease-in-out;
+}
+
+.reveal-paragraph.visible, .reveal-paragraph-2.visible {
+  max-height: 1000px;
+  transition: all 1s;
+  transition-timing-function: ease-in-out;
+}
+
+.tap-for-more {
+  opacity: 0.5;
+  font-weight: 100;
 }
