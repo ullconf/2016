@@ -630,6 +630,13 @@ a:hover {
 .speaker-photo.rene {background-image: url("../images/presenters/rene.jpg");}
 .speaker-photo.horace {background-image: url("../images/presenters/horace.jpg");}
 
+.speaker-photo.max {background-image: url("../images/presenters/max.jpg");}
+.speaker-photo.stephen {background-image: url("../images/presenters/stephen.jpg");}
+.speaker-photo.clay {background-image: url("../images/presenters/clay.jpg");}
+.speaker-photo.matt {background-image: url("../images/presenters/matt.jpg");}
+.speaker-photo.laura {background-image: url("../images/presenters/laura.jpg");}
+.speaker-photo.cian {background-image: url("../images/presenters/cian.jpg");}
+
 
 @media (max-width: 600px) {
   .europe-photo-browser {
