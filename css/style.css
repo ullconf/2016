@@ -806,6 +806,7 @@ a:hover {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
+  align-items: center;
   margin-top: 40px;
   margin-bottom: -10px;
 }
@@ -823,4 +824,14 @@ a:hover {
 .sponsor .flexblock img {
   width: auto;
   height: 100px;
+}
+
+
+.sponsor .flexblock.tapadoo {
+  height: 150px;
+}
+
+.sponsor .flexblock.tapadoo img {
+  height: 150px;
+  margin-left: -60px;
 }
